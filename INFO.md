@@ -66,3 +66,15 @@ local Assets = true/false
 A prefix is super important when installing new assets. E.g. if I was installing a new asset and my prefix was "gu", then to download my asset, I would simply type the command "gu install Asset" after creating my local directory, more on that later.
 ```lua
 local Prefix = "e.g. gu"
+
+Custom varibles is there for you to create your own varibles, and helps keep your varibles from getting mixed up with the core varibles.```lua
+e.g. local customcmd = print("Hello World!")
+```
+
+## Part C - UI Capabilities
+
+AIDAs UI system is truly unlike most. Because of this- methods have had to be made so AIDA could feel smooth and reliable, and still be easy for the average without losing its charm. We do this by creating a parent frame, which as you add more text, increases. And this is how when using list layout functions, we create that smooth terminal feel that is expected from a software like ours.
+Below are functions that will help you in creating your dream UI. (REMINDER: UI CAPABILITIES ARE ONLY FOR TERMINAL BASED SOFTWARES. DO NOT USE UI COMMANDS IF YOU ARE NOT IN A TERMINAL BASED SOFTWARE AS IT WILL NOT WORK!)
+
+
+'Terminal Options'
