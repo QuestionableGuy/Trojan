@@ -68,7 +68,8 @@ A prefix is super important when installing new assets. E.g. if I was installing
 local Prefix = "e.g. gu"
 ```
 
-Custom varibles is there for you to create your own varibles, and helps keep your varibles from getting mixed up with the core varibles.```lua
+Custom varibles is there for you to create your own varibles, and helps keep your varibles from getting mixed up with the core varibles.
+```lua
 e.g. local customcmd = print("Hello World!")
 ```
 
